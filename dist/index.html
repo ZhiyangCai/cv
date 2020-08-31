@@ -288,6 +288,10 @@
               <strong>vue-cli</strong> ， <strong>vue-router</strong> ，
               <strong>vuex</strong> ， <strong>axios</strong> ，
               <strong>webpack</strong> ， <strong>es6</strong>等
+              项目使用以vue-cli为基础创建项目模板，使用less作为css预处理，引用Element
+              UI做交互，通过vue
+              router实现路由跳转，通过vuex实现全局数据的状态管理，用axios获取数据，
+              并对进行了封装
             </p>
           </li>
           <li>
@@ -300,13 +304,45 @@
               </span>
             </header>
             <p>
-              一个基于 <strong>Vue 全家桶</strong> /
-              <strong>TypeScript</strong> 的移动端单页面应用。
+              一个基于 <strong>Vue 全家桶（vue-cli,vuex,vuerouter）</strong> /
+              <strong>TypeScript</strong>/
+              <strong>localStorage</strong>
+
+              的移动端单页面应用,并结合模块化思想、重构技巧
+              对代码进行了多次重构和简化
             </p>
 
             <p>
-              这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账，
-              可以通过图表查看自己的消费习惯。
+              这是我从自己的需求出发，设计出的极简记账应用，可以对日常收入支出设定标签和备注并输入金额，管理标签（添加修改删除），特点是快速记账，
+              可以通过图表查看自己的消费习惯,
+            </p>
+          </li>
+          <li class="page2">
+            <header>
+              <h3>会动的机器猫</h3>
+              <span>
+                <a href="https://github.com/ZhiyangCai/doraemon">源码链接</a>
+                <a href="https://zhiyangcai.github.io/doraemon/dist/index.html">项目预览</a>
+              </span>
+            </header>
+            <p>
+              这是我在学习 <strong>CSS3和动画</strong>和<strong>js</strong>
+              时制作的一个动态绘制哆啦a梦头像的作品,通过动态输出代码的同时，动态绘制一张哆啦A梦的笑脸头像，
+              期间用到了大量的css技巧使我对css和js有了进一步了解
+            </p>
+          </li>
+          <li>
+            <header>
+              <h3>简易画板</h3>
+              <span>
+                <a href="https://github.com/ZhiyangCai/canvas-demo-1">源码链接</a>
+                <a href="https://zhiyangcai.github.io/canvas-demo-1/">项目预览</a>
+              </span>
+            </header>
+            <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
+            <p>
+              实现了相对流畅的绘画功能，可在pc端用鼠标操作画图也可以在手机端触屏绘画。用到了<strong>css</strong>
+              和<strong>js</strong>
             </p>
           </li>
         </ol>
@@ -334,15 +370,17 @@
         </div>
       </section>
 
-      <section class="openSource">
+      <!-- <section class="openSource">
         <h2>开源项目</h2>
         <ul>
           <li class="page2">
             <header>
               <h3>会动的机器猫</h3>
               <span>
-                <a href="https://github.com/ZhiyangCai/doraemon">源码链接</a>
-                <a href="https://zhiyangcai.github.io/doraemon/dist/index.html">项目预览</a>
+                 <a href="https://github.com/ZhiyangCai/doraemon">源码链接</a> 
+                <a href="https://zhiyangcai.github.io/doraemon/dist/index.html"
+                  >项目预览：https://zhiyangcai.github.io/doraemon/dist/index.html</a
+                >
               </span>
             </header>
             <p>
@@ -354,14 +392,18 @@
             <header>
               <h3>简易画板</h3>
               <span>
-                <a href="https://github.com/ZhiyangCai/canvas-demo-1">源码链接</a>
-                <a href="https://zhiyangcai.github.io/canvas-demo-1/">项目预览</a>
+                <a href="https://github.com/ZhiyangCai/canvas-demo-1"
+                  >源码链接</a
+                > 
+                <a href="https://zhiyangcai.github.io/canvas-demo-1/"
+                  >项目预览：https://zhiyangcai.github.io/canvas-demo-1/</a
+                >
               </span>
             </header>
             <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
           </li>
         </ul>
-      </section>
+      </section> -->
 
       <section class="jobs">
         <h2>工作经历</h2>
@@ -369,7 +411,7 @@
           <li>
             <header>
               <h3>上海软素科技股份有限公司</h3>
-              <h4>.net开发工程师</h4>
+              <h4>.net开发工程师+前端</h4>
               <span><time>2015年7月</time>~<time>2017年12月</time></span>
             </header>
             <ul>
@@ -378,23 +420,30 @@
                 <strong>html,css,js,jquery,bootstrap</strong>
               </li>
               <li style="word-wrap: break-word">
-                (2)医药代表用iPad去各大医院药店医生那里签到,巡店,拜访,销售等等操作在iPad端写入数据，然后由iPad存入的数据对接到我们的<strong>SqlServer</strong>，然后由DBA根据不同的业务逻辑把这些数据汇总分别写入不同的<strong>sql</strong>语句，
+                (2)医药代表用iPad去各大医院药店医生那里签到,巡店,拜访,销售等等操作在iPad端写入数据，然后由iPad存入的数据对接到我们的<strong>SqlServer数据库</strong>，然后由DBA根据不同的业务逻辑把这些数据汇总分别写入不同的<strong>sql</strong>语句，
                 存储过程，视图，事务里面，接着由我们在网页写一套页面主要是
                 <strong>html,css,js,jquery,bootstrap,echarts</strong>然后通过后台调用那些写好的sql语句，
-                再让前端调用后台于是呈现出这些汇总的KPI页面
+                再在前端调用后台于是呈现出这些汇总的KPI页面
               </li>
             </ul>
           </li>
-          <li style="display: none">
+          <li style="">
             <header>
               <h3>米斯特许健身工作室</h3>
               <h4>私人教练</h4>
               <span><time>2018年9月</time>~<time>2020年3月</time></span>
             </header>
             <ul>
-              <li>服务会员，监督会员日常饮食，与会员约课上课</li>
-              <li>完成每月续课任务，每周不少于四次自主训练</li>
-              <li></li>
+              <li>1.根据会员需求为会员制定训练计划指导会员训练</li>
+              <li>2.监督会员饮食,维护会员关系</li>
+              <li>3.续课任务</li>
+              <li>
+                <strong>又转回开发的原因:</strong>以前的想法比较幼稚，
+                因为喜欢健身而所以去培训做教练，然后到今年疫情，其实不仅仅是因为疫情主要还是因为销售的成分比较多，不是说这个行业不好，只是对于我来说不适合作为职业，仅仅是因为喜欢健身，作为一个被生活打磨过的人，还是想回到自己开发的专业上
+                <br><strong>备注:</strong>
+                2020年三月份以后开始复习以前的内容，和一些线上的课程，包括es6，webpack和现在前端流行的主流框架vue和react等等，做了一些小项目，基础还是有的，我认为虽然这两年互联网发展比较迅猛出现很多新流行的框架，但是这些都是基于js封装的包括像bootstrap，echarts，vue等等可以从cdn或者npm方式引入，因为前端框架那么多不可能每个API都记住，
+                可以看文档去开发，我对自己的开发能力还是有信心的
+              </li>
             </ul>
           </li>
         </ol>
@@ -404,10 +453,10 @@
         <h2>其他链接</h2>
         <ul>
           <li>
-            <a href="https://www.zhihu.com/people/czy-88-35">我的博客</a>，目前已有 20 篇技术文章
+            <a href="https://www.zhihu.com/people/czy-88-35">我的博客：https://www.zhihu.com/people/czy-88-35</a>，目前已有 20 篇技术文章
           </li>
           <li>
-            <a href="https://github.com/ZhiyangCai">我的 GitHub</a>，过去三个月有 100 次提交
+            <a href="https://github.com/ZhiyangCai">我的 GitHub：https://github.com/ZhiyangCai</a>，过去三个月有 100 次提交
           </li>
         </ul>
       </section>
@@ -421,6 +470,6 @@
       </section>
     </article>
     <script src="https://cdn.bootcss.com/echarts/4.6.0/echarts.min.js"></script>
-    <script src="/main.1f19ae8e.js"></script>
+    <script src="main.e68461e1.js"></script>
   </body>
 </html>
